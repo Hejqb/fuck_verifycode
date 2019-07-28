@@ -6,9 +6,10 @@ from captcha.image import ImageCaptcha
 import cv2
 import numpy as np
 import tensorflow as tf
-
-TRAIN_SIZE = 50000
-VALID_SIZE = 20000
+# 50000
+TRAIN_SIZE = 10
+# 20000
+VALID_SIZE = 2
 CHAR_SET = '123456789ABCDEFGHIJKLMNPQRSTUVWXYZ'
 CHAR_NUM = 5
 IMG_HEIGHT = 60
